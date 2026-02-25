@@ -1,0 +1,25 @@
+# 已有 joint_states 单向桥(42->43)保留，这里仅示例命令反向桥
+name: domain42_43_bridge
+from_domain: 66     # 工控机域（举例）
+to_domain: 77       # 笔记本域（举例）
+
+topics:
+  # 1) 状态: 工控机 -> 笔记本（你已配置）
+  /moga_joint_state_broadcaster/joint_states:
+    type: sensor_msgs/msg/JointState
+    # remap: /remote/joint_states
+    qos:
+      reliability: best_effort
+      # durability: transient_local
+      history: keep_last
+      depth: 10
+
+  # 2) 命令: 笔记本 -> 工控机（新增这一段）
+  /robot_controller/commands:
+    type: custom_controller_msgs/msg/CustomControlCommand
+    reversed: true                       # 关键：方向反转(从 to_domain 回到 from_domain)
+    qos:
+      reliability: reliable
+      # durability: volatile
+      history: keep_last
+      depth: 10

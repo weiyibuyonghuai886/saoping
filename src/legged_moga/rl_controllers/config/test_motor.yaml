@@ -1,0 +1,194 @@
+/**:
+  ros__parameters:
+    test_motor:
+      # CSV文件保存路径（可以是绝对路径或相对于package的路径）
+      csv_save_path: "test_data"
+      
+      # 数据采样率（每N次调用记录一次，用于控制CSV文件大小和采样频率）
+      decimation: 10
+      
+      # 每个电机的独立参数配置
+      # 支持多个电机同时测试，每个电机有独立的参数
+
+      # 先查看一下当前电机的位置，起步位置不要太大
+      # 刚开始频率不要给太高，慢慢调高
+      # 看着plotjuggler的最大速度是否到了极限，测试极限情况下的数据
+      motors:
+
+          # 电机4配置 - Chirp 扫频波形示例
+          # - id: 4
+          #   kp: 120.0
+          #   kd: 4.0
+          #   start_rad: 0.5        # 扫频范围下限（弧度）
+          #   end_rad: 1.3          # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 10.0           # 结束频率（Hz）
+          #   T_sec: 30.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+          # - id: 2
+          #   kp: 120.0
+          #   kd: 4.0
+          #   start_rad: 0.47     # 扫频范围下限（弧度）
+          #   end_rad: 1.3         # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 5.0          # 结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+
+          - id: 8
+            kp: 120.0
+            kd: 4.0
+            start_rad: 0.1     # 扫频范围下限（弧度）
+            end_rad: 1.0         # 扫频范围上限（弧度）
+            frequency: 0.6        # chirp 模式下不使用此参数
+            waveform_type: "chirp"  # 使用 chirp 扫频波形
+            step_time: 5.0        # chirp 模式下不使用
+            start_tau: 0.0        # chirp 模式下不使用
+            end_tau: 10.0         # chirp 模式下不使用
+            
+            # ---- Chirp 扫频专用参数 ----
+            f0_hz: 0.1            # 起始频率（Hz）
+            f1_hz: 4.0          # 结束频率（Hz）
+            T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+            phase: 0.0            # 相位偏置（弧度），通常保持 0
+            ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+
+          # - id: 3
+          #   kp: 80.0
+          #   kd: 1.0
+          #   start_rad: -0.3
+          #   end_rad: 0.0
+          #   frequency: 1.3
+          #   waveform_type: "sine"
+          #   step_time: 5.0
+          #   start_tau: 0.0
+          #   end_tau: 10.0
+
+          # - id: 5
+          #   kp: 60.0
+          #   kd: 3.0
+          #   start_rad: -1.0    # 扫频范围下限（弧度）
+          #   end_rad: 0.0        # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 7.5         # 结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+          # - id: 6
+          #   kp: 60.0
+          #   kd: 3.0
+          #   start_rad: -1.0    # 扫频范围下限（弧度）
+          #   end_rad: 0.0        # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 7.0          # 结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+          # - id: 7
+          #   kp: 150.0
+          #   kd: 5.0
+          #   start_rad: 0.1   # 扫频范围下限（弧度）
+          #   end_rad: 1.0        # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 4.0          # 结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+          # - id: 6
+          #   kp: 60.0
+          #   kd: 3.0
+          #   start_rad: -1.0    # 扫频范围下限（弧度）
+          #   end_rad: 0.0        # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 6.0         # 结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+
+          # - id: 15  # 手臂第一个关节 右臂 22
+          #   kp: 80.0
+          #   kd: 4.0
+          #   start_rad: 0.1   # 扫频范围下限（弧度）
+          #   end_rad: 1.0        # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 0.75  #  结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击
+
+
+          # - id: 25  # 手臂第一个关节 右臂 22
+          #   kp: 80.0
+          #   kd: 4.0
+          #   start_rad: 0.1   # 扫频范围下限（弧度）
+          #   end_rad: 1.0        # 扫频范围上限（弧度）
+          #   frequency: 0.6        # chirp 模式下不使用此参数
+          #   waveform_type: "chirp"  # 使用 chirp 扫频波形
+          #   step_time: 5.0        # chirp 模式下不使用
+          #   start_tau: 0.0        # chirp 模式下不使用
+          #   end_tau: 10.0         # chirp 模式下不使用
+            
+          #   # ---- Chirp 扫频专用参数 ----
+          #   f0_hz: 0.1            # 起始频率（Hz）
+          #   f1_hz: 0.7  #  结束频率（Hz）
+          #   T_sec: 20.0           # 扫频时长（秒），扫完后自动循环
+          #   phase: 0.0            # 相位偏置（弧度），通常保持 0
+          #   ramp_sec: 2.0         # 渐入/渐出时间（秒），避免冲击

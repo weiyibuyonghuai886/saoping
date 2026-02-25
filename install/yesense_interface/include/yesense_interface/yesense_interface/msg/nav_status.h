@@ -1,0 +1,1 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/yesense_interface/rosidl_generator_c/yesense_interface/msg/nav_status.h

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b5749da227172dceced7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "yesense_interface__py",
+					"jsonFile" : "directory-yesense_interface__py-Release-0fea4e36b1bf88089b0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/build/yesense_interface/yesense_interface__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "yesense_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_yesense_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_yesense_interface_egg-Release-0d71d055ef9e4efe136c.json",
+					"name" : "ament_cmake_python_build_yesense_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_yesense_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_yesense_interface-Release-45563311079867490a07.json",
+					"name" : "ament_cmake_python_symlink_yesense_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-83c44143d0c91d9f2f81.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface-Release-40f91d09137e69a96ca5.json",
+					"name" : "yesense_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__cpp-Release-5d68dce91650ffa6c4c5.json",
+					"name" : "yesense_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yesense_interface__py::@75bf01eeef6a044338ff",
+					"jsonFile" : "target-yesense_interface__py-Release-8f95ceb569fb784cbd2e.json",
+					"name" : "yesense_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_generator_c-Release-25620afcc9be23a49d94.json",
+					"name" : "yesense_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_generator_py-Release-d339c51dcf3964c6379c.json",
+					"name" : "yesense_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_c-Release-9ee6da851d71bc1c8cc9.json",
+					"name" : "yesense_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_c__pyext-Release-e8a91b9abb37b0536a69.json",
+					"name" : "yesense_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_cpp-Release-e87644278516f6487bc3.json",
+					"name" : "yesense_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_fastrtps_c-Release-3c8d9ccd4eb45902aab9.json",
+					"name" : "yesense_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_fastrtps_c__pyext-Release-ff216aa6bb192a7405cc.json",
+					"name" : "yesense_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_fastrtps_cpp-Release-7ca87a256c662dacd80d.json",
+					"name" : "yesense_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_introspection_c-Release-5ebd3a7c9d08a689a555.json",
+					"name" : "yesense_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_introspection_c__pyext-Release-bf2538dfe62986cad105.json",
+					"name" : "yesense_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface__rosidl_typesupport_introspection_cpp-Release-e6f1090b4739a955a058.json",
+					"name" : "yesense_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_interface_uninstall-Release-04f9f6065ec3af9d9d1c.json",
+					"name" : "yesense_interface_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/build/yesense_interface",
+		"source" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,51 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+joint_state_broadcaster:
+  ros__parameters:
+    joints:
+      # Left Leg (6 joints)
+      - left_hip_pitch
+      - left_hip_roll
+      - left_hip_yaw
+      - left_knee_pitch
+      - left_ankle_pitch
+      - left_ankle_roll
+      # Right Leg (6 joints)
+      - right_hip_pitch
+      - right_hip_roll
+      - right_hip_yaw
+      - right_knee_pitch
+      - right_ankle_pitch
+      - right_ankle_roll
+      # Waist (2 joints)
+      - 0waist_yaw
+      - waist_pitch
+      # Left Arm (7 joints)
+      - 1left_shoulder_pitch
+      - 1left_shoulder_roll
+      - left_shoulder_yaw
+      - 1left_elbow_pitch
+      - left_elbow_yaw
+      - 1left_wrist_pitch
+      - left_wrist_roll
+      # Right Arm (7 joints)
+      - 1right_shoulder_pitch
+      - 1right_shoulder_roll
+      - right_shoulder_yaw
+      - 1right_elbow_pitch
+      - right_elbow_yaw
+      - 1right_wrist_pitch
+      - right_wrist_roll
+      # Head (2 joints)
+      - head_yaw
+      - head_pitch
+    interfaces:
+      - position
+      - velocity
+      - effort
+

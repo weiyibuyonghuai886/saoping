@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-aa26c4ae0b21fd332233.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yesense_std_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0e12ffe93c07c9702b7b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_node_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_node_publisher-Release-e2a0b35c6bce0934c10d.json",
+					"name" : "yesense_node_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_node_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_node_subscriber-Release-d81b26467ff038371e73.json",
+					"name" : "yesense_node_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_std_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_std_ros2_uninstall-Release-0ca112d8bcf07f766c99.json",
+					"name" : "yesense_std_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/build/yesense_std_ros2",
+		"source" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_std_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

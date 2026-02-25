@@ -1,0 +1,1 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/legged_moga_description/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface/msg/SensorTemp.msg

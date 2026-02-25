@@ -1,0 +1,1 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/yesense_interface/rosidl_generator_cpp/yesense_interface/msg/detail/nav_min__type_support.hpp

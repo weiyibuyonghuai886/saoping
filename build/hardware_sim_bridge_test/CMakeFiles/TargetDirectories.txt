@@ -1,0 +1,9 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/uninstall.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/hardware_sim_bridge_test_uninstall.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/test.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/edit_cache.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/rebuild_cache.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/list_install_components.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/install.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/install/local.dir
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/hardware_sim_bridge_test/CMakeFiles/install/strip.dir

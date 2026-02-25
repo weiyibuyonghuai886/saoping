@@ -1,0 +1,1 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs/rosidl_generator_c/custom_controller_msgs/msg/custom_control_command.h

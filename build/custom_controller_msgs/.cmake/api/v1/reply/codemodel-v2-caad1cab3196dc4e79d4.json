@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7a8b844a2402b1a5ddab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "custom_controller_msgs__py",
+					"jsonFile" : "directory-custom_controller_msgs__py-Release-b7519242ba7a52451ee5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs/custom_controller_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "custom_controller_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_controller_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_controller_msgs_egg-Release-437fa573c67d4a965a4b.json",
+					"name" : "ament_cmake_python_build_custom_controller_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_custom_controller_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_custom_controller_msgs-Release-bec3baec964b9220c1b4.json",
+					"name" : "ament_cmake_python_symlink_custom_controller_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs-Release-65d43093a88ff27f75d0.json",
+					"name" : "custom_controller_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__cpp-Release-7d064ded9ef392558930.json",
+					"name" : "custom_controller_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_controller_msgs__py::@86aff425af26fe15db59",
+					"jsonFile" : "target-custom_controller_msgs__py-Release-ac43f47d7d48b6799966.json",
+					"name" : "custom_controller_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_generator_c-Release-c93576ae25e0e3acbdb0.json",
+					"name" : "custom_controller_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_generator_py-Release-51f242fb3e986c98d304.json",
+					"name" : "custom_controller_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_c-Release-046ae42a22eee7fd861d.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_c__pyext-Release-4ebf44cec7fe3a0217a2.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_cpp-Release-59167ab57c36048009fe.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_fastrtps_c-Release-931ce1027c54544c7f92.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-aee2717aed8d6495843b.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_fastrtps_cpp-Release-0fc351d2dc3cd5cad510.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_introspection_c-Release-ebbdf2e25848c111722c.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_introspection_c__pyext-Release-f07eb849715f4581f08e.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs__rosidl_typesupport_introspection_cpp-Release-79f1d35d7666f0336b21.json",
+					"name" : "custom_controller_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_controller_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_controller_msgs_uninstall-Release-ef41414043d8cbf36d94.json",
+					"name" : "custom_controller_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4f549a05ce9d4d4b77dd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs",
+		"source" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/custom_controller_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

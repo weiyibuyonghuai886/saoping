@@ -1,0 +1,169 @@
+[0.028s] Invoking command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.261s] -- The CXX compiler identification is GNU 11.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.653s] -- Detecting CXX compiler ABI info - done
+[0.671s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.672s] -- Detecting CXX compile features
+[0.673s] -- Detecting CXX compile features - done
+[0.677s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.018s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.143s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.271s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.281s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.298s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.416s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.474s] -- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.797s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.803s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.848s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.865s] -- Looking for pthread.h
+[2.017s] -- Looking for pthread.h - found
+[2.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.181s] -- Found Threads: TRUE  
+[2.277s] -- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.303s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.323s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.445s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.612s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.658s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.669s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.669s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.669s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.714s] -- Found PythonExtra: .so  
+[2.772s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.773s] -- Configured cppcheck include dirs: /home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/thirdparty/onnxruntime/include;$<BUILD_INTERFACE:/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/include>
+[2.773s] -- Configured cppcheck exclude dirs and/or files: 
+[2.775s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.777s] -- Added test 'lint_cmake' to check CMake code style
+[2.779s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.784s] -- Added test 'uncrustify' to check C / C++ code style
+[2.785s] -- Configured uncrustify additional arguments: 
+[2.786s] -- Added test 'xmllint' to check XML markup files
+[2.791s] -- Configuring done
+[2.819s] -- Generating done
+[2.828s] -- Build files have been written to: /home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers
+[2.846s] Invoked command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers
+[2.850s] Invoking command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers -- -j28 -l28
+[2.952s] [ 25%] [32mBuilding CXX object CMakeFiles/rl_controllers.dir/src/RLControllerBase.cpp.o[0m
+[2.954s] [ 50%] [32mBuilding CXX object CMakeFiles/rl_controllers.dir/src/utilities.cpp.o[0m
+[2.955s] [ 75%] [32mBuilding CXX object CMakeFiles/rl_controllers.dir/src/AcController.cpp.o[0m
+[13.054s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/AcController.cpp:[m[K In member function ‘[01m[Kvirtual void legged::AcController::computeObservation()[m[K’:
+[13.054s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/AcController.cpp:352:37:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[13.054s]   352 |     if ([01;35m[Kcmd_norm_ <= cmd_threshold_ && phase_ <=0.05[m[K || phase_ >= 0.95)
+[13.054s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[48.490s] In file included from [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:3[m[K:
+[48.490s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/include/rl_controllers/RotationTools.h:[m[K In member function ‘[01m[Kvirtual void legged::RLControllerBase::updateStateEstimation(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[48.490s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/include/rl_controllers/RotationTools.h:48:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquat.Eigen::Quaternion<double, 0>::m_coeffs.Eigen::Matrix<double, 4, 1, 0, 4, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >::m_storage.Eigen::DenseStorage<double, 4, 4, 1, 0>::m_data.Eigen::internal::plain_array<double, 4, 0, 16>::array[3][m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[48.490s]    48 |   SCALAR_T as = std::min(-2. * (q.x() * q.z() - [01;35m[Kq.w() * q.y()[m[K), .99999);
+[48.490s]       |                                                 [01;35m[K~~~~~~^~~~~~~[m[K
+[48.491s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:584:18:[m[K [01;36m[Knote: [m[K‘[01m[Kquat.Eigen::Quaternion<double, 0>::m_coeffs.Eigen::Matrix<double, 4, 1, 0, 4, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >::m_storage.Eigen::DenseStorage<double, 4, 4, 1, 0>::m_data.Eigen::internal::plain_array<double, 4, 0, 16>::array[3][m[K’ was declared here
+[48.491s]   584 |     quaternion_t [01;36m[Kquat[m[K;
+[48.491s]       |                  [01;36m[K^~~~[m[K
+[48.491s] In file included from [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:3[m[K:
+[48.491s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/include/rl_controllers/RotationTools.h:48:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquat.Eigen::Quaternion<double, 0>::m_coeffs.Eigen::Matrix<double, 4, 1, 0, 4, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >::m_storage.Eigen::DenseStorage<double, 4, 4, 1, 0>::m_data.Eigen::internal::plain_array<double, 4, 0, 16>::array[2][m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[48.491s]    48 |   SCALAR_T as = std::min(-2. * ([01;35m[Kq.x() * q.z()[m[K - q.w() * q.y()), .99999);
+[48.491s]       |                                 [01;35m[K~~~~~~^~~~~~~[m[K
+[48.491s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:584:18:[m[K [01;36m[Knote: [m[K‘[01m[Kquat.Eigen::Quaternion<double, 0>::m_coeffs.Eigen::Matrix<double, 4, 1, 0, 4, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >::m_storage.Eigen::DenseStorage<double, 4, 4, 1, 0>::m_data.Eigen::internal::plain_array<double, 4, 0, 16>::array[2][m[K’ was declared here
+[48.491s]   584 |     quaternion_t [01;36m[Kquat[m[K;
+[48.491s]       |                  [01;36m[K^~~~[m[K
+[48.491s] In file included from [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:3[m[K:
+[48.491s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/include/rl_controllers/RotationTools.h:48:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquat.Eigen::Quaternion<double, 0>::m_coeffs.Eigen::Matrix<double, 4, 1, 0, 4, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >::m_storage.Eigen::DenseStorage<double, 4, 4, 1, 0>::m_data.Eigen::internal::plain_array<double, 4, 0, 16>::array[1][m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[48.491s]    48 |   SCALAR_T as = std::min(-2. * (q.x() * q.z() - [01;35m[Kq.w() * q.y()[m[K), .99999);
+[48.492s]       |                                                 [01;35m[K~~~~~~^~~~~~~[m[K
+[48.492s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:584:18:[m[K [01;36m[Knote: [m[K‘[01m[Kquat.Eigen::Quaternion<double, 0>::m_coeffs.Eigen::Matrix<double, 4, 1, 0, 4, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 4, 1, 0, 4, 1> >::m_storage.Eigen::DenseStorage<double, 4, 4, 1, 0>::m_data.Eigen::internal::plain_array<double, 4, 0, 16>::array[1][m[K’ was declared here
+[48.492s]   584 |     quaternion_t [01;36m[Kquat[m[K;
+[48.492s]       |                  [01;36m[K^~~~[m[K
+[48.492s] In file included from [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:3[m[K:
+[48.492s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/include/rl_controllers/RotationTools.h:48:39:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(double*)((char*)&quat + offsetof(Eigen::quaternion_t, Eigen::Quaternion<double, 0>::<unnamed>.Eigen::QuaternionBase<Eigen::Quaternion<double, 0> >::<unnamed>))[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[48.492s]    48 |   SCALAR_T as = std::min(-2. * ([01;35m[Kq.x() * q.z()[m[K - q.w() * q.y()), .99999);
+[48.492s]       |                                 [01;35m[K~~~~~~^~~~~~~[m[K
+[48.492s] [01m[K/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/rl_controllers/src/RLControllerBase.cpp:584:18:[m[K [01;36m[Knote: [m[K‘[01m[K*(double*)((char*)&quat + offsetof(Eigen::quaternion_t, Eigen::Quaternion<double, 0>::<unnamed>.Eigen::QuaternionBase<Eigen::Quaternion<double, 0> >::<unnamed>))[m[K’ was declared here
+[48.492s]   584 |     quaternion_t [01;36m[Kquat[m[K;
+[48.492s]       |                  [01;36m[K^~~~[m[K
+[55.883s] [100%] [32m[1mLinking CXX shared library librl_controllers.so[0m
+[56.296s] [100%] Built target rl_controllers
+[56.314s] Invoked command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers -- -j28 -l28
+[56.317s] Invoking command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers
+[56.327s] -- Install configuration: "Release"
+[56.328s] -- Execute custom install script
+[56.328s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers//rl_controllers.xml
+[56.341s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/joy.yaml
+[56.354s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/moga_real.yaml
+[56.366s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/moga_sim.yaml
+[56.382s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/test_motor.yaml
+[56.396s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/test_motor_arm.yaml
+[56.409s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/test_motor_body.yaml
+[56.423s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/config/test_motor_chirp_example.yaml
+[56.437s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/launch/rl_control_real.launch.py
+[56.450s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/launch/rl_control_sim.launch.py
+[56.464s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/launch/telelop.launch.py
+[56.479s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/policy/moga/model.onnx
+[56.494s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/pkl_data/interpolated_joint_angles_new_phase.csv
+[56.507s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/pkl_data/interpolated_joint_angles_new_phase_bias.csv
+[56.521s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/pkl_data/walk_data_all.csv
+[56.534s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/pkl_data/walk_data_with_angle_pitch_dof_pos.csv
+[56.548s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/core/providers/custom_op_context.h
+[56.566s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/core/providers/resource.h
+[56.583s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/cpu_provider_factory.h
+[56.600s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/cmake/onnxruntime/onnxruntimeConfig.cmake
+[56.621s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/cmake/onnxruntime/onnxruntimeConfigVersion.cmake
+[56.640s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/cmake/onnxruntime/onnxruntimeTargets-release.cmake
+[56.658s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/cmake/onnxruntime/onnxruntimeTargets.cmake
+[56.675s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/libonnxruntime.so
+[56.692s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/libonnxruntime.so.1
+[56.708s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/libonnxruntime.so.1.19.2
+[56.724s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/libonnxruntime_providers_shared.so
+[56.741s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/lib/pkgconfig/libonnxruntime.pc
+[56.759s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_c_api.h
+[56.777s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_cxx_api.h
+[56.797s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_cxx_inline.h
+[56.812s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_float16.h
+[56.826s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_lite_custom_op.h
+[56.839s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_run_options_config_keys.h
+[56.853s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/onnxruntime_session_options_config_keys.h
+[56.867s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/include/thirdparty/onnxruntime/onnxruntime/provider_options.h
+[56.882s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/cmake/onnxruntime/onnxruntimeConfig.cmake
+[56.900s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/cmake/onnxruntime/onnxruntimeConfigVersion.cmake
+[56.919s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/cmake/onnxruntime/onnxruntimeTargets-release.cmake
+[56.936s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/cmake/onnxruntime/onnxruntimeTargets.cmake
+[56.955s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/libonnxruntime.so
+[56.972s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/libonnxruntime.so.1
+[56.991s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/libonnxruntime.so.1.19.2
+[57.007s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/libonnxruntime_providers_shared.so
+[57.026s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/pkgconfig/libonnxruntime.pc
+[57.044s] -- Up-to-date symlink: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/rl_controllers.xml
+[57.045s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/environment/library_path.sh
+[57.062s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/environment/library_path.dsv
+[57.079s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/ament_index/resource_index/package_run_dependencies/rl_controllers
+[57.096s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/ament_index/resource_index/parent_prefix_path/rl_controllers
+[57.112s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/environment/ament_prefix_path.sh
+[57.128s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/environment/ament_prefix_path.dsv
+[57.148s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/environment/path.sh
+[57.164s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/environment/path.dsv
+[57.180s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/local_setup.bash
+[57.196s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/local_setup.sh
+[57.214s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/local_setup.zsh
+[57.233s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/local_setup.dsv
+[57.252s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/package.dsv
+[57.269s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/ament_index/resource_index/packages/rl_controllers
+[57.287s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/rl_controllers
+[57.305s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[57.322s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.341s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/cmake/rl_controllersConfig.cmake
+[57.357s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/cmake/rl_controllersConfig-version.cmake
+[57.371s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/package.xml
+[57.385s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/librl_controllers.so
+[57.391s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/lib/librl_controllers.so" to ""
+[57.391s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/cmake/export_rl_controllersExport.cmake
+[57.391s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/rl_controllers/share/rl_controllers/cmake/export_rl_controllersExport-release.cmake
+[57.396s] Invoked command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaojiahui/Documents/code/moga_deploy_1101/build/rl_controllers

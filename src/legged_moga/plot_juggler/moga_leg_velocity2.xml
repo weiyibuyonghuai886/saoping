@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+ <tabbed_widget name="Main Window" parent="main_window">
+  <Tab containers="1" tab_name="tab1">
+   <Container>
+    <DockSplitter orientation="-" count="1" sizes="1">
+     <DockSplitter orientation="|" count="4" sizes="0.250792;0.249208;0.250792;0.249208">
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="leg_l1_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.058650" top="0.052650"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[0]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[0]" color="#17becf"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_l2_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.100000" top="0.100000"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[1]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[1]" color="#17becf"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_l3_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.100000" top="0.100000"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[2]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[2]" color="#17becf"/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="leg_l4_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.058600" top="0.050600"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[3]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[3]" color="#17becf"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_l5_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.011700" top="0.009319"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[4]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[4]" color="#17becf"/>
+         <curve name="/data_analysis/left_ankle_pitch_vel_in_space/data[-3]" color="#000000"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_l6_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.018540" top="0.021260"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[5]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[5]" color="#17becf"/>
+         <curve name="/data_analysis/left_ankle_roll_vel_in_space/data[-3]" color="#000000"/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="leg_r1_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.044200" top="0.048200"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[6]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[6]" color="#17becf"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_r2_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.100000" top="0.100000"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[7]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[7]" color="#17becf"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_r3_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.100000" top="0.100000"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[8]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[8]" color="#17becf"/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="leg_r4_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.049225" top="0.044225"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[9]" color="#e82155"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[9]" color="#17becf"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_r5_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.018708" top="0.020120"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[10]" color="#ff0000"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[10]" color="#17becf"/>
+         <curve name="/data_analysis/right_ankle_pitch_vel_in_space/data[-3]" color="#000000"/>
+        </plot>
+       </DockArea>
+       <DockArea name="leg_r6_joint">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.143133" right="1747816682.141272" bottom="-0.018376" top="0.012358"/>
+         <limitY/>
+         <curve name="/data_analysis/real_joint_vel/data[11]" color="#ff1900"/>
+         <curve name="/data_analysis/rl_planned_joint_vel/data[11]" color="#17becf"/>
+         <curve name="/data_analysis/right_ankle_roll_vel_in_space/data[-3]" color="#000000"/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+     </DockSplitter>
+    </DockSplitter>
+   </Container>
+  </Tab>
+  <Tab containers="1" tab_name="tab4">
+   <Container>
+    <DockSplitter orientation="-" count="1" sizes="1">
+     <DockSplitter orientation="|" count="4" sizes="0.250651;0.249349;0.250651;0.249349">
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.139574" right="1747816682.139155" bottom="-0.111525" top="0.120525"/>
+         <limitY/>
+         <curve name="/data_analysis/motor_vel/data[4]" color="#1f26b4"/>
+         <curve name="/data_analysis/l5_vel_filtered/data[-3]" color="#ff1d00"/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.139574" right="1747816682.139155" bottom="-0.106100" top="0.108100"/>
+         <limitY/>
+         <curve name="/data_analysis/motor_vel/data[5]" color="#3200ff"/>
+         <curve name="/data_analysis/l6_vel_filtered/data[-3]" color="#ff000b"/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+      <DockSplitter orientation="-" count="3" sizes="0.332944;0.334112;0.332944">
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="0.000000" right="1.000000" bottom="0.000000" top="1.000000"/>
+         <limitY/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.139574" right="1747816682.139155" bottom="-0.111025" top="0.100025"/>
+         <limitY/>
+         <curve name="/data_analysis/motor_vel/data[10]" color="#0900ff"/>
+         <curve name="/data_analysis/r5_vel_filtered/data[-3]" color="#ff0400"/>
+        </plot>
+       </DockArea>
+       <DockArea name="...">
+        <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
+         <range left="1747816672.139574" right="1747816682.139155" bottom="-0.105100" top="0.109100"/>
+         <limitY/>
+         <curve name="/data_analysis/motor_vel/data[11]" color="#0e21ff"/>
+         <curve name="/data_analysis/r6_vel_filtered/data[-3]" color="#ff0b00"/>
+        </plot>
+       </DockArea>
+      </DockSplitter>
+     </DockSplitter>
+    </DockSplitter>
+   </Container>
+  </Tab>
+  <currentTabIndex index="1"/>
+ </tabbed_widget>
+ <use_relative_time_offset enabled="0"/>
+ <!-- - - - - - - - - - - - - - - -->
+ <!-- - - - - - - - - - - - - - - -->
+ <Plugins>
+  <plugin ID="DataLoad CSV">
+   <parameters time_axis="" delimiter="0"/>
+  </plugin>
+  <plugin ID="DataLoad MCAP"/>
+  <plugin ID="DataLoad ROS2 bags">
+   <use_header_stamp value="false"/>
+   <discard_large_arrays value="true"/>
+   <max_array_size value="100"/>
+   <boolean_strings_to_number value="true"/>
+   <remove_suffix_from_strings value="true"/>
+   <selected_topics value=""/>
+  </plugin>
+  <plugin ID="DataLoad ULog"/>
+  <plugin ID="ROS2 Topic Subscriber">
+   <use_header_stamp value="false"/>
+   <discard_large_arrays value="true"/>
+   <max_array_size value="100"/>
+   <boolean_strings_to_number value="true"/>
+   <remove_suffix_from_strings value="true"/>
+   <selected_topics value="/parameter_events;/rosout;/data_analysis/imu_angular_vel;/data_analysis/imu_euler_xyz;/data_analysis/imu_linear_acc;/data_analysis/l5_vel_filtered;/data_analysis/l5_vel_raw;/data_analysis/l6_vel_filtered;/data_analysis/l6_vel_raw;/data_analysis/left_ankle_pitch_pos_in_space;/data_analysis/left_ankle_pitch_pos_solve;/data_analysis/left_ankle_pitch_vel_in_space;/data_analysis/left_ankle_pitch_vel_solve;/data_analysis/left_ankle_roll_pos_in_space;/data_analysis/left_ankle_roll_pos_solve;/data_analysis/left_ankle_roll_vel_in_space;/data_analysis/left_ankle_roll_vel_solve;/data_analysis/motor_cmd_torque;/data_analysis/motor_pos;/data_analysis/motor_torque;/data_analysis/motor_vel;/data_analysis/phase;/data_analysis/r5_vel_filtered;/data_analysis/r5_vel_raw;/data_analysis/r6_vel_filtered;/data_analysis/r6_vel_raw;/data_analysis/read_ankle_space_pos;/data_analysis/read_ankle_space_torque;/data_analysis/read_ankle_space_vel;/data_analysis/real_joint_pos;/data_analysis/real_joint_torque;/data_analysis/real_joint_vel;/data_analysis/right_ankle_pitch_pos_in_space;/data_analysis/right_ankle_pitch_pos_solve;/data_analysis/right_ankle_pitch_vel_in_space;/data_analysis/right_ankle_pitch_vel_solve;/data_analysis/right_ankle_roll_pos_in_space;/data_analysis/right_ankle_roll_pos_solve;/data_analysis/right_ankle_roll_vel_in_space;/data_analysis/right_ankle_roll_vel_solve;/data_analysis/rl_planned_joint_pos;/data_analysis/rl_planned_joint_torque;/data_analysis/rl_planned_joint_vel"/>
+  </plugin>
+  <plugin ID="UDP Server"/>
+  <plugin ID="WebSocket Server"/>
+  <plugin ID="ZMQ Subscriber"/>
+  <plugin ID="Fast Fourier Transform"/>
+  <plugin ID="Quaternion to RPY"/>
+  <plugin ID="Reactive Script Editor">
+   <library code="--[[ Helper function to create a series from arrays&#xa;&#xa; new_series: a series previously created with ScatterXY.new(name)&#xa; prefix:     prefix of the timeseries, before the index of the array&#xa; suffix_X:   suffix to complete the name of the series containing the X value. If [nil], use the index of the array.&#xa; suffix_Y:   suffix to complete the name of the series containing the Y value&#xa; timestamp:   usually the tracker_time variable&#xa;              &#xa; Example:&#xa; &#xa; Assuming we have multiple series in the form:&#xa; &#xa;   /trajectory/node.{X}/position/x&#xa;   /trajectory/node.{X}/position/y&#xa;   &#xa; where {N} is the index of the array (integer). We can create a reactive series from the array with:&#xa; &#xa;   new_series = ScatterXY.new(&quot;my_trajectory&quot;) &#xa;   CreateSeriesFromArray( new_series, &quot;/trajectory/node&quot;, &quot;position/x&quot;, &quot;position/y&quot;, tracker_time );&#xa;--]]&#xa;&#xa;function CreateSeriesFromArray( new_series, prefix, suffix_X, suffix_Y, timestamp )&#xa;  &#xa;  --- clear previous values&#xa;  new_series:clear()&#xa;  &#xa;  --- Append points to new_series&#xa;  index = 0&#xa;  while(true) do&#xa;&#xa;    x = index;&#xa;    -- if not nil, get the X coordinate from a series&#xa;    if suffix_X ~= nil then &#xa;      series_x = TimeseriesView.find( string.format( &quot;%s.%d/%s&quot;, prefix, index, suffix_X) )&#xa;      if series_x == nil then break end&#xa;      x = series_x:atTime(timestamp)&#x9; &#xa;    end&#xa;    &#xa;    series_y = TimeseriesView.find( string.format( &quot;%s.%d/%s&quot;, prefix, index, suffix_Y) )&#xa;    if series_y == nil then break end &#xa;    y = series_y:atTime(timestamp)&#xa;    &#xa;    new_series:push_back(x,y)&#xa;    index = index+1&#xa;  end&#xa;end&#xa;&#xa;--[[ Similar to the built-in function GetSeriesNames(), but select only the names with a give prefix. --]]&#xa;&#xa;function GetSeriesNamesByPrefix(prefix)&#xa;  -- GetSeriesNames(9 is a built-in function&#xa;  all_names = GetSeriesNames()&#xa;  filtered_names = {}&#xa;  for i, name in ipairs(all_names)  do&#xa;    -- check the prefix&#xa;    if name:find(prefix, 1, #prefix) then&#xa;      table.insert(filtered_names, name);&#xa;    end&#xa;  end&#xa;  return filtered_names&#xa;end&#xa;&#xa;--[[ Modify an existing series, applying offsets to all their X and Y values&#xa;&#xa; series: an existing timeseries, obtained with TimeseriesView.find(name)&#xa; delta_x: offset to apply to each x value&#xa; delta_y: offset to apply to each y value &#xa;  &#xa;--]]&#xa;&#xa;function ApplyOffsetInPlace(series, delta_x, delta_y)&#xa;  -- use C++ indeces, not Lua indeces&#xa;  for index=0, series:size()-1 do&#xa;    x,y = series:at(index)&#xa;    series:set(index, x + delta_x, y + delta_y)&#xa;  end&#xa;end&#xa;"/>
+   <scripts/>
+  </plugin>
+  <plugin ID="CSV Exporter"/>
+  <plugin ID="ROS2 Topic Re-Publisher"/>
+ </Plugins>
+ <!-- - - - - - - - - - - - - - - -->
+ <previouslyLoaded_Datafiles/>
+ <previouslyLoaded_Streamer name="ROS2 Topic Subscriber"/>
+ <!-- - - - - - - - - - - - - - - -->
+ <customMathEquations/>
+ <snippets/>
+ <!-- - - - - - - - - - - - - - - -->
+</root>
+

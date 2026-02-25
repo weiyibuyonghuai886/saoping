@@ -1,0 +1,107 @@
+/**:
+  ros__parameters:
+    test_motor:
+      # 每个电机的独立参数配置
+      # 支持多个电机同时测试，每个电机有独立的参数
+      motors:
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 15
+            kp: 80.0
+            kd: 4.0
+            # start_rad: -0.3
+            # end_rad: 0.5
+            start_rad: 0.3
+            end_rad: 0.3           
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 22
+            kp: 80.0
+            kd: 4.0
+            # start_rad: 0.3
+            # end_rad: -0.5
+            start_rad: 0.3
+            end_rad: 0.3
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 18
+            kp: 80.0
+            kd: 4.0
+            start_rad: -1.3
+            end_rad: 0.0
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 25
+            kp: 80.0
+            kd: 4.0
+            start_rad: 1.3
+            end_rad: 0.0
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 16
+            kp: 80.0
+            kd: 4.0
+            start_rad: -1.0
+            end_rad: -1.0
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 23
+            kp: 80.0
+            kd: 4.0
+            start_rad: 1.0
+            end_rad: 1.0
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 17
+            kp: 80.0
+            kd: 4.0
+            start_rad: 0.0
+            end_rad: 0.0
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0
+
+          # 电机2配置（例如：right_hip_pitch）
+          - id: 24
+            kp: 80.0
+            kd: 4.0
+            start_rad: 0.0
+            end_rad: 0.0
+            frequency: 0.4
+            waveform_type: "sine"
+            step_time: 5.0
+            start_tau: 0.0
+            end_tau: 10.0

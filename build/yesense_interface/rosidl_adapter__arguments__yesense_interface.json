@@ -1,0 +1,27 @@
+{
+  "package_name": "yesense_interface",
+  "non_idl_tuples": [
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/Tid.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/ThreeAxis.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/SensorTemp.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/Pressure.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/EulerAngle.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/Quat.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/GnssPos.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/NavStatus.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/Vel.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/Utc.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/SampleTimestamp.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/ImuData.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/ImuDataTenAxis.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/EulerOnly.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/RobotLord.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/AttitudeMinVru.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/AttitudeMinAhrs.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/AttitudeAllData.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/PosOnly.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/NavMin.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/NavMinUtc.msg",
+    "/home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/yesense_interface:msg/NavAll.msg"
+  ]
+}

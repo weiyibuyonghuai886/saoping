@@ -1,0 +1,8 @@
+source;share/legged_moga_description/hook/cmake_prefix_path.ps1
+source;share/legged_moga_description/hook/cmake_prefix_path.dsv
+source;share/legged_moga_description/hook/cmake_prefix_path.sh
+source;share/legged_moga_description/local_setup.bash
+source;share/legged_moga_description/local_setup.dsv
+source;share/legged_moga_description/local_setup.ps1
+source;share/legged_moga_description/local_setup.sh
+source;share/legged_moga_description/local_setup.zsh

@@ -1,0 +1,199 @@
+[0.033s] Invoking command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/custom_controller_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.437s] -- Detecting C compile features
+[0.438s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.630s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.654s] -- Detecting CXX compile features
+[0.655s] -- Detecting CXX compile features - done
+[0.663s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.013s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.184s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.207s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.357s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.987s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.099s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.161s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.162s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.162s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.220s] -- Found PythonExtra: .so  
+[3.351s] -- Configuring done
+[3.405s] -- Generating done
+[3.426s] -- Build files have been written to: /home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs
+[3.436s] Invoked command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/xiaojiahui/Documents/code/moga_deploy_1101/src/legged_moga/custom_controller_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs
+[3.438s] Invoking command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs -- -j28 -l28
+[3.532s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.559s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.577s] [  6%] Built target ament_cmake_python_symlink_custom_controller_msgs
+[4.310s] running egg_info
+[4.312s] creating custom_controller_msgs.egg-info
+[4.312s] writing custom_controller_msgs.egg-info/PKG-INFO
+[4.313s] writing dependency_links to custom_controller_msgs.egg-info/dependency_links.txt
+[4.313s] writing top-level names to custom_controller_msgs.egg-info/top_level.txt
+[4.314s] writing manifest file 'custom_controller_msgs.egg-info/SOURCES.txt'
+[4.319s] reading manifest file 'custom_controller_msgs.egg-info/SOURCES.txt'
+[4.321s] writing manifest file 'custom_controller_msgs.egg-info/SOURCES.txt'
+[4.347s] [  6%] Built target custom_controller_msgs__cpp
+[4.354s] [  9%] [32mBuilding C object CMakeFiles/custom_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_controller_msgs/msg/detail/custom_control_command__functions.c.o[0m
+[4.371s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.373s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.375s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.390s] [ 19%] Built target ament_cmake_python_build_custom_controller_msgs_egg
+[4.596s] [ 22%] [32m[1mLinking C shared library libcustom_controller_msgs__rosidl_generator_c.so[0m
+[4.693s] [ 22%] Built target custom_controller_msgs__rosidl_generator_c
+[4.718s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.721s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.722s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.071s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_controller_msgs/msg/detail/dds_fastrtps/custom_control_command__type_support.cpp.o[0m
+[5.105s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_controller_msgs/msg/custom_control_command__type_support.cpp.o[0m
+[5.289s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_controller_msgs/msg/detail/custom_control_command__type_support.cpp.o[0m
+[5.454s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_controller_msgs/msg/detail/custom_control_command__type_support_c.cpp.o[0m
+[5.551s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_controller_msgs/msg/custom_control_command__type_support.cpp.o[0m
+[5.622s] [ 51%] [32m[1mLinking CXX shared library libcustom_controller_msgs__rosidl_typesupport_c.so[0m
+[5.629s] [ 54%] [32mBuilding C object CMakeFiles/custom_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_controller_msgs/msg/detail/custom_control_command__type_support.c.o[0m
+[5.672s] [ 58%] [32m[1mLinking CXX shared library libcustom_controller_msgs__rosidl_typesupport_cpp.so[0m
+[5.713s] [ 58%] Built target custom_controller_msgs__rosidl_typesupport_c
+[5.764s] [ 58%] Built target custom_controller_msgs__rosidl_typesupport_cpp
+[5.828s] [ 61%] [32m[1mLinking C shared library libcustom_controller_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.905s] [ 61%] Built target custom_controller_msgs__rosidl_typesupport_introspection_c
+[6.314s] [ 64%] [32m[1mLinking CXX shared library libcustom_controller_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.342s] [ 67%] [32m[1mLinking CXX shared library libcustom_controller_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.607s] [ 67%] Built target custom_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[6.628s] [ 67%] Built target custom_controller_msgs__rosidl_typesupport_fastrtps_c
+[6.833s] [ 70%] [32m[1mLinking CXX shared library libcustom_controller_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.017s] [ 70%] Built target custom_controller_msgs__rosidl_typesupport_introspection_cpp
+[7.070s] [ 70%] Built target custom_controller_msgs
+[7.119s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.076s] [ 74%] Built target custom_controller_msgs__py
+[8.171s] [ 77%] [32mBuilding C object CMakeFiles/custom_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_controller_msgs/msg/_custom_control_command_s.c.o[0m
+[9.616s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_controller_msgs/libcustom_controller_msgs__rosidl_generator_py.so[0m
+[9.754s] [ 80%] Built target custom_controller_msgs__rosidl_generator_py
+[9.878s] [ 83%] [32mBuilding C object CMakeFiles/custom_controller_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_controller_msgs/_custom_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.878s] [ 87%] [32mBuilding C object CMakeFiles/custom_controller_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_controller_msgs/_custom_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.879s] [ 90%] [32mBuilding C object CMakeFiles/custom_controller_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_controller_msgs/_custom_controller_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.282s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.372s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.428s] [ 96%] Built target custom_controller_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.438s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.551s] [100%] Built target custom_controller_msgs__rosidl_typesupport_introspection_c__pyext
+[10.623s] [100%] Built target custom_controller_msgs__rosidl_typesupport_c__pyext
+[10.699s] Invoked command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs -- -j28 -l28
+[10.701s] Invoking command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs
+[10.738s] -- Install configuration: "Release"
+[10.742s] -- Execute custom install script
+[10.743s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_controller_msgs
+[10.773s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/custom_control_command.h
+[10.800s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__functions.h
+[10.829s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__struct.h
+[10.886s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__type_support.h
+[10.910s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.943s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/library_path.sh
+[10.971s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/library_path.dsv
+[11.000s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__rosidl_typesupport_fastrtps_c.h
+[11.031s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.064s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__rosidl_typesupport_introspection_c.h
+[11.095s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.143s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/custom_control_command.hpp
+[11.177s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__builder.hpp
+[11.209s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__struct.hpp
+[11.274s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__traits.hpp
+[11.330s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__type_support.hpp
+[11.364s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.421s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[11.464s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.492s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/include/custom_controller_msgs/custom_controller_msgs/msg/detail/custom_control_command__rosidl_typesupport_introspection_cpp.hpp
+[11.525s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/pythonpath.sh
+[11.564s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/pythonpath.dsv
+[11.627s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[11.663s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[11.701s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[11.734s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[11.781s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/__init__.py
+[11.838s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/_custom_controller_msgs_s.ep.rosidl_typesupport_c.c
+[11.917s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/_custom_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.955s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/_custom_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.989s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.019s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.051s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.081s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/libcustom_controller_msgs__rosidl_generator_py.so
+[12.113s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/msg/__init__.py
+[12.157s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/msg/_custom_control_command.py
+[12.196s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/msg/_custom_control_command_s.c
+[12.254s] -- Up-to-date symlink: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.256s] -- Up-to-date symlink: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.258s] -- Up-to-date symlink: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/custom_controller_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.258s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/msg/CustomControlCommand.idl
+[12.320s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/msg/CustomControlCommand.msg
+[12.402s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/ament_index/resource_index/package_run_dependencies/custom_controller_msgs
+[12.458s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/ament_index/resource_index/parent_prefix_path/custom_controller_msgs
+[12.509s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/ament_prefix_path.sh
+[12.553s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/ament_prefix_path.dsv
+[12.573s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/path.sh
+[12.606s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/environment/path.dsv
+[12.643s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/local_setup.bash
+[12.667s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/local_setup.sh
+[12.724s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/local_setup.zsh
+[12.776s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/local_setup.dsv
+[12.799s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/package.dsv
+[12.830s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/ament_index/resource_index/packages/custom_controller_msgs
+[12.857s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/rosidl_cmake-extras.cmake
+[12.917s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.970s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.998s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.025s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.053s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.083s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.111s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgsConfig.cmake
+[13.138s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgsConfig-version.cmake
+[13.163s] -- Symlinking: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/package.xml
+[13.181s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_generator_c.so
+[13.182s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_generator_c.so" to ""
+[13.182s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_fastrtps_c.so
+[13.182s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.183s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_introspection_c.so
+[13.183s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.183s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_c.so
+[13.184s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_c.so" to ""
+[13.184s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.185s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.185s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_introspection_cpp.so
+[13.185s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.186s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_cpp.so
+[13.186s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_typesupport_cpp.so" to ""
+[13.277s] Listing '/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs'...
+[13.277s] Compiling '/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/__init__.py'...
+[13.278s] Listing '/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/msg'...
+[13.278s] Compiling '/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/msg/__init__.py'...
+[13.278s] Compiling '/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/local/lib/python3.10/dist-packages/custom_controller_msgs/msg/_custom_control_command.py'...
+[13.288s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_generator_py.so
+[13.289s] -- Set runtime path of "/home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/lib/libcustom_controller_msgs__rosidl_generator_py.so" to ""
+[13.290s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_generator_cExport.cmake
+[13.290s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_generator_cExport-release.cmake
+[13.290s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.291s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[13.291s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.291s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[13.292s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_cExport.cmake
+[13.292s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_cExport-release.cmake
+[13.292s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_generator_cppExport.cmake
+[13.293s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.293s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[13.293s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.294s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[13.294s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_cppExport.cmake
+[13.295s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/custom_controller_msgs__rosidl_typesupport_cppExport-release.cmake
+[13.295s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_generator_pyExport.cmake
+[13.295s] -- Installing: /home/xiaojiahui/Documents/code/moga_deploy_1101/install/custom_controller_msgs/share/custom_controller_msgs/cmake/export_custom_controller_msgs__rosidl_generator_pyExport-release.cmake
+[13.302s] Invoked command in '/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs

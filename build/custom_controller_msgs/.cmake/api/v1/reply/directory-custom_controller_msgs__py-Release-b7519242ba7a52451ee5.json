@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_controller_msgs__py",
+		"source" : "/home/xiaojiahui/Documents/code/moga_deploy_1101/build/custom_controller_msgs/custom_controller_msgs__py"
+	}
+}

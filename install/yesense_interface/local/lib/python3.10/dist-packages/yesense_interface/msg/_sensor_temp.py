@@ -1,0 +1,1 @@
+/home/xiaojiahui/Documents/code/moga_deploy_1101/build/yesense_interface/rosidl_generator_py/yesense_interface/msg/_sensor_temp.py

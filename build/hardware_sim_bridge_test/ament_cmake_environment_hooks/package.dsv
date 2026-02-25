@@ -1,0 +1,4 @@
+source;share/hardware_sim_bridge_test/local_setup.bash
+source;share/hardware_sim_bridge_test/local_setup.dsv
+source;share/hardware_sim_bridge_test/local_setup.sh
+source;share/hardware_sim_bridge_test/local_setup.zsh

@@ -1,0 +1,50 @@
+# 关节参数配置文件 - 对齐格式
+# 格式:
+# [关节名称, 电机ID, 关节索引, 电机方向, 正向位置限制, 负向位置限制, 速度限制, 扭矩限制, 偏置, 是否为踝关节电机]
+# format:
+# [jointName, motorIndex, jointIndex, directionMotor_, pos_limit_positive_, pos_limit_negative_, vel_limit_, tau_limit_, biasMotor_, isAnkleMotor_]
+#
+# 脚踝电机格式:
+# [关节名称, 电机ID, 关节索引, 电机方向, 正向位置限制, 负向位置限制, 速度限制, 扭矩限制, 偏置, 是否为踝关节电机, 踝关节解算器电机索引, 踝关节电机正向位置限制, 踝关节电机负向位置限制, 踝关节电机速度限制, 踝关节电机扭矩限制]
+# format:
+# [jointName, motorIndex, jointIndex, directionMotor_, pos_limit_positive_, pos_limit_negative_, vel_limit_, tau_limit_, biasMotor_, isAnkleMotor_, ankleSolverMotorIndex_, motor_pos_limit_positive_, motor_pos_limit_negative_, motor_vel_limit_, motor_tau_limit_]
+# 注释说明: 关节名称 (英文描述)
+
+joint_parameters:
+  # 下肢关节 (0-11) - 左右腿各6个关节
+  - ["left_hip_pitch",        "leg_joint_1",  0,  1, 1.5708, -1.5708, 11.7, 90.0,  0.0, false]  # Left Hip Pitch
+  - ["left_hip_roll",         "leg_joint_2",  1,  1, 1.5708, -1.5705, 11.7, 130.0, 0.0, false]  # Left Hip Roll
+  - ["left_hip_yaw",          "leg_joint_3",  2,  1, 1.5708, -1.5708, 11.7, 90.0,  0.0, false]  # Left Hip Yaw
+  - ["left_knee_pitch",       "leg_joint_4",  3,  1, 1.5708, -1.5708, 15.0, 130.0, 0.0, false]  # Left Knee Pitch
+  - ["left_ankle_pitch",      "leg_joint_5",  4,  1, 1.5708, -1.5708, 20.0, 50.0,  0.0, true, 0, 1.5708, -1.5708, 20.0, 50.0]  # Left Ankle Pitch
+  - ["left_ankle_roll",       "leg_joint_6",  5,  1, 1.5708, -1.5708, 20.0, 50.0,  0.0, true, 1, 1.5708, -1.5708, 20.0, 50.0]  # Left Ankle Roll
+  - ["right_hip_pitch",       "leg_joint_7",  6,  1, 1.5708, -1.5708, 11.7, 90.0,  0.0, false]  # Right Hip Pitch
+  - ["right_hip_roll",        "leg_joint_8",  7,  1, 1.5708, -0.7854, 11.7, 130.0, 0.0, false]  # Right Hip Roll
+  - ["right_hip_yaw",         "leg_joint_9",  8,  1, 1.5708, -1.5708, 11.7, 90.0,  0.0, false]  # Right Hip Yaw
+  - ["right_knee_pitch",      "leg_joint_10", 9,  1, 1.5708, -1.5708, 15.0, 130.0, 0.0, false]  # Right Knee Pitch
+  - ["right_ankle_pitch",     "leg_joint_11", 10, 1, 1.5708, -1.5708, 20.0, 50.0,  -0.0, true, 1, 1.5708, -1.5708, 20.0, 50.0]  # Right Ankle Pitch
+  - ["right_ankle_roll",      "leg_joint_12", 11, 1, 1.5708, -1.5708, 20.0, 50.0,  0.0, true, 0, 1.5708, -1.5708, 20.0, 50.0]  # Right Ankle Roll
+
+  # 腰部关节 (12-13) - 2个关节
+  - ["0waist_yaw",            "waist_yaw",    12, 1, 0.0,    0.0,     0.0,  0.0,   0.0, false]  # Waist Yaw (Placeholder)
+  - ["waist_pitch",           "waist_pitch",  13, 1, 2.618,  -2.618,  27.0, 80.0,  0.0, false]  # Waist Pitch (Torso)
+
+  # 上肢关节 (14-27) - 左右臂各7个关节
+  - ["1left_shoulder_pitch",  "arm_joint_1",  14, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Left Shoulder Pitch
+  - ["1left_shoulder_roll",   "arm_joint_2",  15, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Left Shoulder Roll
+  - ["left_shoulder_yaw",     "arm_joint_3",  16, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Left Shoulder Yaw
+  - ["1left_elbow_pitch",     "arm_joint_4",  17, 1, 2.0944, -1.5708, 10.0, 50.0, 0.0, false]  # Left Elbow Pitch
+  - ["left_elbow_yaw",        "arm_joint_5",  18, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Left Elbow Yaw
+  - ["1left_wrist_pitch",     "arm_joint_6",  19, 1, 1.5708, -1.5708, 20.0, 15.0, 0.0, false]  # Left Wrist Pitch
+  - ["left_wrist_roll",       "arm_joint_7",  20, 1, 1.5708, -1.5708, 20.0, 15.0, 0.0, false]  # Left Wrist Roll
+  - ["1right_shoulder_pitch", "arm_joint_8",  21, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Right Shoulder Pitch
+  - ["1right_shoulder_roll",  "arm_joint_9",  22, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Right Shoulder Roll
+  - ["right_shoulder_yaw",    "arm_joint_10", 23, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Right Shoulder Yaw
+  - ["1right_elbow_pitch",    "arm_joint_11", 24, 1, 2.0944, -1.5708, 10.0, 70.0, 0.0, false]  # Right Elbow Pitch
+  - ["right_elbow_yaw",       "arm_joint_12", 25, 1, 1.5708, -1.5708, 10.0, 50.0, 0.0, false]  # Right Elbow Yaw
+  - ["1right_wrist_pitch",    "arm_joint_13", 26, 1, 1.5708, -1.5708, 20.0, 15.0, 0.0, false]  # Right Wrist Pitch
+  - ["right_wrist_roll",      "arm_joint_14", 27, 1, 1.5708, -1.5708, 20.0, 15.0, 0.0, false]  # Right Wrist Roll
+
+  # 头部关节 (28-29) - 2个关节
+  - ["head_yaw",              "neck_yaw",     28, 1, 0.0,    0.0,     0.0,  0.0,   0.0, false]  # Head Yaw (Placeholder)
+  - ["head_pitch",            "neck_pitch",   29, 1, 0.0,    0.0,     0.0,  0.0,   0.0, false]  # Head Pitch (Placeholder)

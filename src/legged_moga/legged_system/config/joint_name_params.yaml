@@ -1,0 +1,38 @@
+# 关节名称、方向和偏置配置文件
+# 格式: [关节名称, 电机方向, 电机偏置, 正向位置限制, 负向位置限制, 速度限制, 扭矩限制, 忽略超限检测]
+# format: [name, directionMotor_, biasMotor_, pos_limit_positive_, pos_limit_negative_, vel_limit_, tau_limit_, ignore_limit_check_]
+# 注意：此列表的顺序必须与 all_joint_names_ 数组的索引对应
+# ignore_limit_check_: true=忽略超限检测, false=执行超限检测
+
+joint_name_parameters:
+  - ["leg_joint_1",  1,  0.0, 0.5,    -0.5,    11.7, 90.0,  true]  # 0  - Left Hip Pitch
+  - ["leg_joint_2",  1,  0.0, 1.5708, -1.5705, 11.7, 130.0, true]  # 1  - Left Hip Roll
+  - ["leg_joint_3",  -1, 0.0, 1.5708, -1.5708, 11.7, 90.0,  true]  # 2  - Left Hip Yaw
+  - ["leg_joint_4",  1,  0.0, 1.5708, -1.5708, 15.0, 130.0, true]  # 3  - Left Knee Pitch
+  - ["leg_joint_5",  1,  0.0, 1.5708, -1.5708, 20.0, 50.0,  true]  # 4  - Left Ankle Pitch
+  - ["leg_joint_6",  1,  0.0, 1.5708, -1.5708, 20.0, 50.0,  true]  # 5  - Left Ankle Roll
+  - ["leg_joint_8",  -1, 0.0, 1.5708, -0.7854, 11.7, 130.0, true]  # 6  - Right Hip Roll
+  - ["leg_joint_9",  1,  0.0, 1.5708, -1.5708, 11.7, 90.0,  true]  # 7  - Right Hip Yaw
+  - ["leg_joint_10", -1, 0.0, 1.5708, -1.5708, 15.0, 130.0, true]  # 8  - Right Knee Pitch
+  - ["leg_joint_11", -1, 0.0, 1.5708, -1.5708, 20.0, 50.0,  true]  # 9  - Right Ankle Pitch
+  - ["leg_joint_12", 1,  0.0, 1.5708, -1.5708, 20.0, 50.0,  true]  # 10 - Right Ankle Roll
+  - ["leg_joint_13", 1,  0.0, 1.5708, -1.5708, 11.7, 90.0,  true]  # 11 - Right Hip Pitch (leg_joint_7)
+  - ["waist_yaw",    1,  0.0, 0.0,    0.0,     0.0,  0.0,   true]   # 12 - Waist Yaw (Placeholder, 忽略检测)
+  - ["waist_pitch",  -1, 0.0, 2.618,  -2.618,  27.0, 80.0,  true]  # 13 - Waist Pitch
+  - ["arm_joint_1",  -1, 0.0, 1.5708, -1.5708, 10.0, 50.0,  true]  # 14 - Left Shoulder Pitch
+  - ["arm_joint_2",  -1, 0.0, 1.5708, -1.5708, 10.0, 50.0,  true]  # 15 - Left Shoulder Roll
+  - ["arm_joint_3",  1,  0.0, 1.5708, -1.5708, 10.0, 50.0,  true]  # 16 - Left Shoulder Yaw
+  - ["arm_joint_4",  -1, 0.0, 2.0944, -1.5708, 10.0, 50.0,  true]  # 17 - Left Elbow Pitch
+  - ["arm_joint_5",  1,  0.0, 1.5708, -1.5708, 10.0, 50.0,  true]   # 18 - Left Elbow Yaw (忽略检测)
+  - ["arm_joint_6",  1,  0.0, 1.5708, -1.5708, 20.0, 15.0,  true]   # 19 - Left Wrist Pitch (忽略检测)
+  - ["arm_joint_7",  1,  0.0, 1.5708, -1.5708, 20.0, 15.0,  true]   # 20 - Left Wrist Roll (忽略检测)
+  - ["arm_joint_8",  1,  0.0, 1.5708, -1.5708, 10.0, 50.0,  true]  # 21 - Right Shoulder Pitch
+  - ["arm_joint_9",  -1, 0.0, 1.5708, -1.5708, 10.0, 50.0,  true]  # 22 - Right Shoulder Roll
+  - ["arm_joint_10", -1, 0.0, 1.5708, -1.5708, 10.0, 50.0,  true]  # 23 - Right Shoulder Yaw
+  - ["arm_joint_11", -1, 0.0, 2.0944, -1.5708, 10.0, 70.0,  true]  # 24 - Right Elbow Pitch
+  - ["arm_joint_12", 1,  0.0, 1.5708, -1.5708, 10.0, 50.0,  true]   # 25 - Right Elbow Yaw (忽略检测)
+  - ["arm_joint_13", 1,  0.0, 1.5708, -1.5708, 20.0, 15.0,  true]   # 26 - Right Wrist Pitch (忽略检测)
+  - ["arm_joint_14", 1,  0.0, 1.5708, -1.5708, 20.0, 15.0,  true]   # 27 - Right Wrist Roll (忽略检测)
+  - ["neck_yaw",     1,  0.0, 0.0,    0.0,     0.0,  0.0,   true]   # 28 - Head Yaw (Placeholder, 忽略检测)
+  - ["neck_pitch",   1,  0.0, 0.0,    0.0,     0.0,  0.0,   true]   # 29 - Head Pitch (Placeholder, 忽略检测)
+

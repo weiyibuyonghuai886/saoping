@@ -1,0 +1,228 @@
+controller_manager:
+  ros__parameters:
+    lock_memory: true
+    thread_priority: 90
+    cpu_affinity: 1
+    update_rate: 1000  # Hz
+
+    diagnostics:
+      threshold:
+        controller_manager:
+          periodicity:
+            mean_error:
+              error: 10.0
+              warn: 5.0
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    rl_controllers:
+      type: legged/AcController
+
+rl_controllers:
+  ros__parameters:
+    joints:
+      # Left Leg (6 joints)
+      - left_hip_pitch
+      - left_hip_roll
+      - left_hip_yaw
+      - left_knee_pitch
+      - left_ankle_pitch
+      - left_ankle_roll
+      # Right Leg (6 joints)
+      - right_hip_pitch
+      - right_hip_roll
+      - right_hip_yaw
+      - right_knee_pitch
+      - right_ankle_pitch
+      - right_ankle_roll
+      # Waist (2 joints)
+      - 0waist_yaw
+      - waist_pitch
+      # Left Arm (7 joints)
+      - 1left_shoulder_pitch
+      - 1left_shoulder_roll
+      - left_shoulder_yaw
+      - 1left_elbow_pitch
+      - left_elbow_yaw
+      - 1left_wrist_pitch
+      - left_wrist_roll
+      # Right Arm (7 joints)
+      - 1right_shoulder_pitch
+      - 1right_shoulder_roll
+      - right_shoulder_yaw
+      - 1right_elbow_pitch
+      - right_elbow_yaw
+      - 1right_wrist_pitch
+      - right_wrist_roll
+      # Head (2 joints)
+      - head_yaw
+      - head_pitch
+
+    command_interfaces:
+      - position
+      - velocity
+      - effort
+      - Kp
+      - Kd
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+
+    # IMU 配置
+    imu_name: "imu_sensor"
+
+    policyFile: policy/moga/model.onnx
+
+    use_sim_handles: false
+
+    LeggedRobotCfg:
+      init_state:
+        # target angles [rad] when action = 0.0
+        default_joint_angle:
+          # Left Leg
+          left_hip_pitch: 0.0
+          left_hip_roll: 0.0
+          left_hip_yaw: 0.0
+          left_knee_pitch: 0.0
+          left_ankle_pitch: 0.0
+          left_ankle_roll: 0.0
+          # Right Leg
+          right_hip_pitch: 0.0
+          right_hip_roll: 0.0
+          right_hip_yaw: 0.0
+          right_knee_pitch: 0.0
+          right_ankle_pitch: 0.0
+          right_ankle_roll: 0.0
+        default_waist_joint_angle:
+          0waist_yaw: 0.0
+          waist_pitch: 0.0
+        default_arm_joint_angle:
+          # Left Arm
+          1left_shoulder_pitch: 0.0
+          1left_shoulder_roll: 0.3
+          left_shoulder_yaw: 0.0
+          1left_elbow_pitch: -0.7
+          left_elbow_yaw: 0.0
+          1left_wrist_pitch: 0.0
+          left_wrist_roll: 0.0
+          # Right Arm
+          1right_shoulder_pitch: 0.0
+          1right_shoulder_roll: -0.3
+          right_shoulder_yaw: 0.0
+          1right_elbow_pitch: 0.7
+          right_elbow_yaw: 0.0
+          1right_wrist_pitch: 0.0
+          right_wrist_roll: 0.0
+        default_head_joint_angle:
+          head_yaw: 0.0
+          head_pitch: 0.0
+      control:
+        stiffness:
+          # Left Leg
+          left_hip_pitch: 200.0
+          left_hip_roll: 100.0
+          left_hip_yaw: 100.0
+          left_knee_pitch: 200.0
+          left_ankle_pitch: 50.0
+          left_ankle_roll: 50.0
+          # Right Leg
+          right_hip_pitch: 200.0
+          right_hip_roll: 100.0
+          right_hip_yaw: 100.0
+          right_knee_pitch: 200.0
+          right_ankle_pitch: 50.0
+          right_ankle_roll: 50.0
+          # Waist
+          0waist_yaw: 50.0
+          waist_pitch: 50.0
+          # Left Arm
+          1left_shoulder_pitch: 100.0
+          1left_shoulder_roll: 100.0
+          left_shoulder_yaw: 30.0
+          1left_elbow_pitch: 50.0
+          left_elbow_yaw: 15.0
+          1left_wrist_pitch: 5.0
+          left_wrist_roll: 5.0
+          # Right Arm
+          1right_shoulder_pitch: 100.0
+          1right_shoulder_roll: 100.0
+          right_shoulder_yaw: 30.0
+          1right_elbow_pitch: 50.0
+          right_elbow_yaw: 15.0
+          1right_wrist_pitch: 5.0
+          right_wrist_roll: 5.0
+          # Head
+          head_yaw: 5.0
+          head_pitch: 2.0
+        damping:
+          # Left Leg
+          left_hip_pitch: 5.0
+          left_hip_roll: 3.0
+          left_hip_yaw: 3.0
+          left_knee_pitch: 5.0
+          left_ankle_pitch: 2.0
+          left_ankle_roll: 2.0
+          # Right Leg
+          right_hip_pitch: 5.0
+          right_hip_roll: 3.0
+          right_hip_yaw: 3.0
+          right_knee_pitch: 5.0
+          right_ankle_pitch: 2.0
+          right_ankle_roll: 2.0
+          # Waist
+          0waist_yaw: 3.0
+          waist_pitch: 3.0
+          # Left Arm
+          1left_shoulder_pitch: 3.0
+          1left_shoulder_roll: 3.0
+          left_shoulder_yaw: 1.0
+          1left_elbow_pitch: 3.0
+          left_elbow_yaw: 0.5
+          1left_wrist_pitch: 0.1
+          left_wrist_roll: 0.1
+          # Right Arm
+          1right_shoulder_pitch: 3.0
+          1right_shoulder_roll: 3.0
+          right_shoulder_yaw: 1.0
+          1right_elbow_pitch: 3.0
+          right_elbow_yaw: 0.5
+          1right_wrist_pitch: 0.1
+          right_wrist_roll: 0.1
+          # Head
+          head_yaw: 0.5
+          head_pitch: 0.3
+        action_scale: 0.5
+        decimation: 10
+        cycle_time: 0.9
+      normalization:
+        clip_scales:
+          clip_observations: 100.
+          clip_actions: 100.
+        obs_scales:
+          lin_vel: 2.0
+          ang_vel: 1.
+          dof_pos: 1.0
+          dof_vel: 0.05
+          quat: 1.
+          height_measurements: 5.0
+      size:
+        actions_size: 12
+        observations_size: 48
+        num_hist: 66
+      mode:
+        sw_mode: True
+        cmd_threshold: 0.05
+    init_pos_control:
+      lie_kp_large: 50.0
+      lie_kd_large: 1.0
+      lie_kp_ankle: 20.0
+      lie_kd_ankle: 1.0
+      stance_kp_large: 100.0
+      stance_kd_large: 1.0
+      stance_kp_ankle: 20.0
+      stance_kd_ankle: 1.5
+    cmd_vel_timeout_duration: 0.5   # cmd_vel 超时阈值（秒）
+    cmd_vel_deceleration_rate: 2.0   # 减速率
+
